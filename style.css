@@ -43,11 +43,18 @@ a{
 }
 
 .content {
-    min-height: calc(100vh - 128px);
+    min-height: calc(100vh - 111px);
   }
 
 #upper_right {
 	position: absolute;
 	top: 1em;
 	right: 1em;
+}
+.pree_footer{
+    display: inline;
+    color: white;
+    background-color: #EF9827;
+    text-align: center;
+    margin: 2em;
 }
