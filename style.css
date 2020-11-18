@@ -45,3 +45,9 @@ a{
 .content {
     min-height: calc(100vh - 98px);
   }
+
+#upper_right {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
