@@ -2,13 +2,20 @@
 * {
     font-family: 'Cairo', sans-serif;
     box-sizing: border-box;
+    margin: 0px;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
 }
 
 /* navbar start*/
 .navbar__class{
     /* text-align: center; */
+    color: #EF9827;
     padding: 1em;
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
 }
 
 .store__img {
@@ -18,4 +25,17 @@
 .store__img:hover {
     transform: scale(1.03) !important;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06) !important;
+}
+
+.footer__class{
+    background-color: #EF9827;
+    padding: .05px;
+    color: white;
+    text-align: center;
+    /* height: 10vh; */
+}
+
+a{
+    text-decoration: none;
+    color: white    ;
 }
